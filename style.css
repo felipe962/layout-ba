@@ -1,4 +1,4 @@
-/*reset*/
+/* RESET*/
 *{
     margin: 0;
     padding: 0;
@@ -8,11 +8,10 @@ a{
     text-decoration: none;
     color: inherit;
 }
-ul,ol,li{
+ul, ol, li{
     list-style: none;
-
 }
-/* FIM RESET */
+/* FIM RESET*/
 
 body{
     height: 100vh;
@@ -26,11 +25,11 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-.logo {
-    height: 70px;
-    width: 64px;
-    background-color: rgb(127, 122, 122);
-  
+.logo{
+    height: 80px;
+    width: 80px;
+    background-color: brown;
+    align-items: center;
 }
 .menu ul{
     display: flex;
@@ -39,15 +38,45 @@ header{
 }
 main{
     flex-grow: 1;
-    background-color: rgb(151, 148, 151);
+    display: flex;
 }
 .conteudo{
     width: 50%;
-    background-color: tomato;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 128px
+    
+}
+.conteudo h1{
+    font-size: 80px;
+
+}
+.conteudo p{
+    font-size: 48px;
+
+}
+.conteudo button{
+    height: 64px;
+    width: 300px;
+    font-size: 32px;
+    background-color: black;
+    color: white;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+
+}
+.social div{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: aqua;
 }
 .destaque{
     width: 50%;
-    background-color: lightgray;
+    background-color: aliceblue;
 }
 footer{
     height: 100px;
