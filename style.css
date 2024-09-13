@@ -89,7 +89,7 @@ main {
     width: 150px;
     border-radius: 100%;
     background-color: rgb(255, 255, 255);
-    background-image: url('./img/joma.webp');
+    background-image: url('./img/modelo1.webp');
     background-size: cover; 
     background-position: center;
 }
@@ -99,7 +99,7 @@ main {
     width: 150px;
     border-radius: 100%;
     background-color: rgb(185, 185, 185);
-    background-image: url('./img/modelo1.webp');
+    background-image: url('./img/joma3.webp');
     background-size: cover;
     background-position: center;
 }
