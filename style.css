@@ -1,87 +1,130 @@
-/* RESET*/
-*{
+/* RESET */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-a{
+
+a {
     text-decoration: none;
     color: inherit;
 }
-ul, ol, li{
+
+ul, ol, li {
     list-style: none;
 }
-/* FIM RESET*/
+/* FIM RESET */
 
-body{
+body {
     height: 100vh;
     display: flex;
     flex-direction: column;
     padding-inline: 80px;
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
 }
-header{
+
+
+header {
     height: 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.logo{
+
+.logo {
     height: 80px;
     width: 80px;
-    background-color: rgb(98, 98, 98);
     align-items: center;
+    background-image: url('./img/joma979.logowik.com.webp');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    
 }
-.menu ul{
+
+.menu ul {
     display: flex;
     gap: 32px;
     font-size: 32px;
 }
-main{
+
+main {
     flex-grow: 1;
     display: flex;
 }
-.conteudo{
+
+.conteudo {
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-right: 128px
-    
+    padding-right: 128px;
 }
-.conteudo h1{
+
+.conteudo h1 {
     font-size: 80px;
-
 }
-.conteudo p{
+
+.conteudo p {
     font-size: 48px;
-
 }
-.conteudo button{
+
+.conteudo button {
     height: 64px;
     width: 300px;
     font-size: 32px;
     background-color: black;
     color: white;
 }
-.social{
+
+.social {
     display: flex;
     justify-content: space-between;
+}
 
-}
-.social div{
+.social div {
     height: 80px;
-    width: 80px;
-    border-radius: 50%;
-    background-color: rgb(80, 80, 80);
+    width: 150px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+    background-image: url('./img/joma.webp');
+    background-size: cover; 
+    background-position: center;
 }
-.destaque{
+
+.social div.a {
+    height: 80px;
+    width: 150px;
+    border-radius: 100%;
+    background-color: rgb(185, 185, 185);
+    background-image: url('./img/modelo1.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.social div.b {
+    height: 80px;
+    width: 150px;
+    border-radius: 100%;
+    background-color: rgb(185, 185, 185);
+    background-image: url('./img/joma979.logowik.com.webp');
+    background-size: cover;
+    background-position: center;
+}
+.destaque {
     width: 50%;
-    background-color: aliceblue;
+    
+    background-image: url('./img/joma.webp'); 
+    background-size: cover;
+    background-position: center;
 }
-footer{
+
+footer {
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: lightgray;
+    color: rgb(70, 70, 70);
 }
