@@ -28,7 +28,7 @@ header{
 .logo{
     height: 80px;
     width: 80px;
-    background-color: brown;
+    background-color: rgb(98, 98, 98);
     align-items: center;
 }
 .menu ul{
@@ -72,7 +72,7 @@ main{
     height: 80px;
     width: 80px;
     border-radius: 50%;
-    background-color: aqua;
+    background-color: rgb(80, 80, 80);
 }
 .destaque{
     width: 50%;
@@ -80,5 +80,8 @@ main{
 }
 footer{
     height: 100px;
-    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightgray;
 }
